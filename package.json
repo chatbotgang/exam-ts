@@ -11,18 +11,18 @@
     "lint:cspell": "cspell --no-summary --no-progress",
     "lint:es": "eslint . --fix --report-unused-disable-directives --max-warnings 0",
     "lint:prettier": "prettier --ignore-unknown --write .",
-    "lint:style": "stylelint '**/*.{css,js,jsx,ts,tsx}' --fix -i .stylelintignore",
     "prepare": "husky"
   },
   "dependencies": {
-    "@repo/dts": "workspace:*",
-    "@repo/tsconfig": "workspace:*",
-    "@repo/utils": "workspace:*",
+    "@mui/types": "^7.2.21",
     "@types/fs-extra": "^11.0.4",
-    "babel-plugin-react-compiler": "19.0.0-beta-e1e972c-20250221",
+    "es-toolkit": "catalog:",
     "fs-extra": "^11.3.0",
     "npm-run-all": "^4.1.5",
-    "vite": "^6.2.0"
+    "ts-toolbelt": "^9.6.0",
+    "tsafe": "^1.8.5",
+    "type-fest": "^4.37.0",
+    "zod": "^3.24.2"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^4.3.0",
@@ -47,12 +47,7 @@
     "jiti": "^2.4.2",
     "lint-staged": "^15.4.3",
     "pathe": "^2.0.3",
-    "postcss-styled-syntax": "^0.7.1",
     "prettier": "^3.5.2",
-    "stylelint": "^16.15.0",
-    "stylelint-config-idiomatic-order": "^10.0.0",
-    "stylelint-config-standard": "^37.0.0",
-    "stylelint-prettier": "^5.0.3",
     "tsx": "^4.19.3",
     "typescript": "^5.8.2"
   },
