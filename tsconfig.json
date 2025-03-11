@@ -1,4 +1,4 @@
 {
-  "extends": ["@repo/tsconfig/script/tsconfig"],
+  "extends": ["@vp-tw/tsconfig/base/bundler/tsconfig"],
   "include": ["*.config.*", "*.d.ts"]
 }
