@@ -1,4 +1,7 @@
 catalog:
-  es-toolkit: ^1.31.0
+  "@antfu/eslint-config": ^5.4.1
+  "@vp-tw/eslint-config": ^0.2.0
+  "@vp-tw/tsconfig": ^3.2.1
+  es-toolkit: ^1.40.0
 packages:
-  - "packages/*"
+  - packages/*

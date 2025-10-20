@@ -8,9 +8,4 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const prettierignorePath = path.resolve(__dirname, ".prettierignore");
 
-export default vdustr(
-  {
-    react: true,
-  },
-  includeIgnoreFile(prettierignorePath),
-);
+export default vdustr({}, includeIgnoreFile(prettierignorePath));
