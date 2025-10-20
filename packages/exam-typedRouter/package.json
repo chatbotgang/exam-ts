@@ -2,5 +2,6 @@
   "name": "unnamed",
   "version": "0.0.0-unused",
   "private": true,
+  "description": "ts exam",
   "type": "module"
 }

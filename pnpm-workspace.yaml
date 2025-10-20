@@ -1,4 +1,28 @@
 catalog:
-  es-toolkit: ^1.31.0
+  "@antfu/eslint-config": ^5.4.1
+  "@commitlint/cli": ^20.1.0
+  "@commitlint/config-conventional": ^20.0.0
+  "@commitlint/types": ^20.0.0
+  "@eslint/compat": ^1.4.0
+  "@mui/types": ^7.4.7
+  "@total-typescript/ts-reset": ^0.6.1
+  "@vp-tw/eslint-config": ^0.2.0
+  "@vp-tw/tsconfig": ^3.2.1
+  commitizen: ^4.3.1
+  cspell: ^9.2.1
+  es-toolkit: ^1.40.0
+  eslint: ^9.38.0
+  eslint-config-prettier: ^10.1.8
+  eslint-plugin-package-json: ^0.57.0
+  husky: ^9.1.7
+  jiti: ^2.6.1
+  lint-staged: ^16.2.4
+  npm-run-all: ^4.1.5
+  prettier: ^3.6.2
+  ts-toolbelt: ^9.6.0
+  tsafe: ^1.8.12
+  type-fest: ^5.1.0
+  typescript: ^5.9.3
+  zod: ^4.1.12
 packages:
-  - "packages/*"
+  - packages/*
