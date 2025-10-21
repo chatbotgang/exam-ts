@@ -17,5 +17,5 @@
   "includeRegExpList": ["[ -~]"],
   "useGitignore": true,
   "version": "0.2",
-  "words": ["antfu", "commitizen", "jiti", "tsafe"]
+  "words": ["antfu", "commitizen", "jiti", "pathe", "tsafe"]
 }
